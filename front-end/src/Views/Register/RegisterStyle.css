@@ -1,0 +1,35 @@
+.Register-Container {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.616);
+    overflow: hidden;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    height: 450px;
+    top:150px;
+    position:relative;
+
+   
+}
+
+@media only screen and (max-width: 1000px) {
+    .Register-Container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Register-Container {
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+        z-index: 1;
+        background-color: white;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        height: 100vh;
+        top:0px;
+   
+    }
+}

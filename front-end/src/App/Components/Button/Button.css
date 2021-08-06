@@ -1,0 +1,38 @@
+.Cloudia-Button{
+    padding:10px;
+    background: none;
+    border: none;
+    margin: 5px;
+    color: rgb(240, 240, 240);
+    width: 160px;
+    transition: .2s;
+    cursor: pointer;
+}
+.Cloudia-Button.Primary {
+    background: #013a63;
+ 
+}
+
+.Cloudia-Button.Primary:hover{
+    background: #468faf;
+}
+
+.Cloudia-Button.Secondary {
+    background: #08a045;
+    color: #08a045;
+ 
+}
+
+.Cloudia-Button.Secondary:hover{
+    background: #08a045;
+    border: #08a045 1px solid;
+    color: rgb(255, 255, 255);
+}
+
+.Cloudia-Button.Outlined{
+    background:none;
+    border: 1px solid;
+}
+
+
+
